@@ -3,7 +3,8 @@ import { io } from "socket.io-client";
 import useAudioStreamer from "../hooks/useAudioStreamer";
 import { Headphones } from "react-feather";
 
-const URL = "http://localhost:3000";
+const URL = "radio-broadcast-production.up.railway.app";
+// const URL = "http://localhost:3000";
 // const URL = "http://localhost:5173";
 
 function Listen() {
