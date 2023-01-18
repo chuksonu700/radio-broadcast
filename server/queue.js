@@ -32,6 +32,7 @@ class Queue {
         const client = new PassThrough();
 
         this.clients.set(id, client);
+        console.log(`New client ${id} added ${Date.now()}`)
         return { id, client };
     }
 
@@ -47,7 +48,7 @@ class Queue {
 
         // Add directory name back to filenames
         const filepaths = filenames.map((filename) => join(dir, filename));
-
+            console.log(filepaths);
         const promises = filepaths.map(async (filepath) => {
             const bitrate = await this.getTrackBitrate(filepath);
 

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../symbl-tutorial"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"dotenv.enableAutocloaking": false
+	}
+}
