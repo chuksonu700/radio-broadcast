@@ -16,6 +16,10 @@ function Listen() {
             <div className="rounded-full bg-gray-700 p-6 mt-5">
                 <Headphones size={50} />
             </div>
+            <div className="rounded-full bg-gray-700 p-6 mt-5">
+                <img height={200} src="./giphy.webp" />
+            </div>
+            
             <audio src={`${URL}/stream`} autoPlay />
         </div>
     );
