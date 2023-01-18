@@ -15,12 +15,12 @@ function Listen() {
     return (
         <div className="flex flex-col items-center h-full">
             <h1 className="text-5xl font-bold">Listening...</h1>
-            <div className="rounded-full bg-gray-700 p-6 mt-5">
+            {/* <div className="rounded-full bg-gray-700 p-6 mt-5">
                 <Headphones size={50} />
-            </div>
-            <div className="rounded-full bg-gray-700 p-6 mt-5">
-                <img height={50} src="./giphy.webp" />
-            </div>
+            </div> */}
+                
+                <img height="80px" className="rounded" src="./giphy.webp" />
+            
             
             <audio src={`${URL}/stream`} autoPlay />
         </div>
