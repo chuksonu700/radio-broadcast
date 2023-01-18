@@ -32,7 +32,7 @@ class Queue {
         const client = new PassThrough();
 
         this.clients.set(id, client);
-        console.log(`New client ${id} added ${Date.now()}`)
+        console.log("client is: ",client)
         return { id, client };
     }
 

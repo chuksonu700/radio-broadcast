@@ -3,7 +3,8 @@ import { io } from "socket.io-client";
 import useAudioStreamer from "../hooks/useAudioStreamer";
 import { Headphones } from "react-feather";
 
-const URL = "radio-broadcast-production.up.railway.app";
+const URL = "https://radio-g6w7.onrender.com";
+// const URL = "radio-broadcast-production.up.railway.app";
 // const URL = "http://localhost:3000";
 // const URL = "http://localhost:5173";
 
@@ -18,7 +19,7 @@ function Listen() {
                 <Headphones size={50} />
             </div>
             <div className="rounded-full bg-gray-700 p-6 mt-5">
-                <img height={200} src="./giphy.webp" />
+                <img height={50} src="./giphy.webp" />
             </div>
             
             <audio src={`${URL}/stream`} autoPlay />
