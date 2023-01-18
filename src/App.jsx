@@ -11,14 +11,14 @@ function App() {
         <div className="flex flex-col items-center h-full">
             <h1 className="text-5xl font-bold mb-5">Radio Broadcast</h1>
             <div className="space-y-3 flex flex-col items-center w-max">
-                <Link to="/host" className="w-full">
+                {/* <Link to="/host" className="w-full">
                     <button type="button" className={buttonClassName}>
                         <div className={iconClassName}>
                             <Mic size={32} />
                         </div>
                         Become the host
                     </button>
-                </Link>
+                </Link> */}
                 <Link to="/listen" className="w-full">
                     <button type="button" className={buttonClassName}>
                         <div className={iconClassName}>
